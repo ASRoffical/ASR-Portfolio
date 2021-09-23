@@ -1,0 +1,233 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    background: linear-gradient(rgb(248, 49, 238), blue);
+
+}
+
+.leftbox {
+    background-color: #f9f9fd36;
+    min-height: 90vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+
+#size {
+    height: 170px;
+    width: 300px;
+}
+
+.rightbox {
+    background-color: brown;
+    min-height: 90vh;
+    width: 45vw;
+}
+
+#i1 {
+    height: 20px;
+}
+
+.i2 {
+    border-radius: 50%;
+    width: 22px
+}
+
+.name {
+    color: white;
+    font-size: larger;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.about .img {
+    background-image: url(img.jpg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 147px;
+    border: 3px solid white;
+}
+
+.content {
+    color: white;
+    padding-top: 46px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.cbox {
+    display: flex;
+    align-content: space-between;
+}
+
+.language {
+    color: white;
+    margin-top: 10px;
+}
+
+#i1 {
+    padding-right: 1px;
+}
+
+.rightbox {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.edu {
+    background-color: #1d46464f;
+    width: 80%;
+    height: 30%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skils {
+    background-color: #1d46464f;
+    width: 80%;
+    height: 30%;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.skl {
+    display: flex;
+    margin-top: 2px;
+}
+
+.hobby {
+    background-color: #1d46464f;
+    width: 80%;
+    height: 30%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    width: 40%;
+    background-color: blue;
+    border-radius: 25px;
+    height: 35px;
+    padding: 4px;
+    text-align: -moz-center;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
+.edudec {
+    align-self: center;
+    margin: 40px;
+}
+
+.rate1 {
+    width: 50%;
+    height: 20px;
+    margin: 0px 20px;
+    border: 1px solid white;
+    border-radius: 11px;
+}
+
+#m2 {
+    height: 23px;
+    margin-right: 10px;
+}
+
+.rate1 .subrate1 {
+    width: 70%;
+    height: 18px;
+    border: 1px solid white;
+    border-radius: 11px;
+    background-color: #c700ff;
+}
+
+.rate1 .subrate2 {
+    width: 90%;
+    height: 18px;
+    border: 1px solid white;
+    border-radius: 11px;
+    background-color: #c700ff;
+}
+
+.rate1 .subrate3 {
+    width: 70%;
+    height: 18px;
+    border: 1px solid white;
+    border-radius: 11px;
+    background-color: #c700ff;
+}
+
+.rate1 .subrate4 {
+    width: 75%;
+    height: 18px;
+    border: 1px solid white;
+    border-radius: 11px;
+    background-color: #c700ff;
+}
+
+.rate1 .subrate5 {
+    width: 75%;
+    height: 18px;
+    border: 1px solid white;
+    border-radius: 11px;
+    background-color: #c700ff;
+}
+
+.subhby {
+    align-self: center;
+
+}
+
+.hby {
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.hby img {
+    height: 30px;
+    margin-right: 20px;
+}
